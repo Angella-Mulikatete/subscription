@@ -112,34 +112,3 @@ class SubscribeController extends Controller
 
 
 
-// public function create()
-    // {
-    //     $subscribes = Subscriber::all();
-    //     $this -> validate($request,[
-    //         'name'=>required,
-    //         'description'=>required,
-    //         'trial_period'=>required,
-    //         'invoice_period'=>required,
-    //     ]);
-    //      $post = new Subscriber;
-    //      $post ->name = $request -> input('name');
-    //      $post ->description = $request -> input('description');
-    //      $post ->trial_period = $request -> input('trial_period');
-    //      $post ->invoice_period = $request -> input('invoice_period');
-    //      $post->save();
-
-
-    //     return view('auth.create', compact('subscribes'));
-
-    //     // Subscriber::create([
-    //     //     'name'=>request('name'),
-    //     //     'description'=>request('description'),
-    //     //     'trial_period'=>request('trial_period'),
-    //     //     'invoice_period'=>request('invoice_period'),
-    //     // ]);
-    //     // return redirect('/subscribe');
-
-
-    //     //return view('auth.create');
-
-    // }
